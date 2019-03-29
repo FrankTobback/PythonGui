@@ -35,6 +35,9 @@ class Window(Frame):
         # Save file
         file.add_command(label="Save")
 
+        # add seperator line
+        file.add_separator()
+
         # Adds a command to the menu option, calling it exit ,
         # And the command it runs on the even is client_exit
         file.add_command(label="Exit", command=self.client_exit)
