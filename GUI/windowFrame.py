@@ -51,7 +51,7 @@ class Window(Frame):
         menu.add_cascade(label="Edit", menu=edit)
 
     def showImg(self):
-        load = Image.open("Goku.jpeg")
+        load = Image.open("GUI/Goku.jpeg")
         render = ImageTk.PhotoImage(load)
 
         # Labels can be text or images
